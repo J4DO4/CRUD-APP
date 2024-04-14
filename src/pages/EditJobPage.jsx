@@ -17,7 +17,7 @@ const EditJobPage = ({ updateJobSubmit }) => {
   const [contactEmail, setContactEmail] = useState('job.company.contactEmail');
   const [contactPhone, setContactPhone] = useState('job.company.contactPhone');
   const navigate = useNavigate();
-  const { id } = useParams;
+  const { id } = useParams();
 
   const submitForm = (e) => {
     e.preventDefault();

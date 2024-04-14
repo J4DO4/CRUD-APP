@@ -19,7 +19,7 @@ const JobPage = ({ deleteJob }) => {
     if (!confirm) return;
 
     deleteJob(jobId);
-    toast.success('Job deleted sucessfully');
+    toast.success('Job deleted successfully');
     navigate('/jobs');
   };
   //   const [job, setJob] = useState(null);
